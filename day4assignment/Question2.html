@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <title>assignment4</title>
+    </head>
+    <body>
+        <form id="form1">
+            Enter First Number:<input type="text" id="t1"/><br>
+            Enter Second Number:<input type="text" id="t2"/><br>
+            <input type="button" value="Add" onclick="add()"/>
+            <input type="text" id="t3"/>
+        </form>
+        <script>
+            function add(){
+                var num1=Number(document.getElementById("t1").value);
+                var num2=Number(document.getElementById("t2").value);
+                document.getElementById("t3").value=num1+num2;
+            }
+        </script>
+    </body>
+</html>

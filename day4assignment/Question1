@@ -1,0 +1,6 @@
+We can access the elements in the DOM using 5 methods
+1. getElementById() - used to find HTML elements by getElementById.
+2. getElementsByTagName() - used to find HTML elements by tag name.
+3. getElementsByClassName() - used to find HTML elements by class name.
+4. querySelector() - used to find HTML elements by single CSS selector.
+5. querySelectorAll() - used to find HTML elements by more than one CSS selector.
