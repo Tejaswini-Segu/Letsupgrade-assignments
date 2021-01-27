@@ -1,0 +1,14 @@
+<html>
+    <head>
+        <title>Question1</title>
+    </head>
+    <body>
+        <script>
+            console.log(1+"2"+"2");    //122 since 2 are characters
+            console.log(1+ +"2"+"2");  //32
+            console.log(1+ -"1"+"2");   //02
+            console.log(+"1"+"1"+"2"); //112 since all are characters
+            console.log("A"-"B"+"2");  //error since AB are not numbers to perform arithmetic operations
+            console.log("A"-"B"+2);    //error/ NAN since subtraction cannot performed on characters
+        </script>
+    </body>
